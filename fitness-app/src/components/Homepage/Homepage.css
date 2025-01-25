@@ -1,0 +1,104 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 55px;
+    /* border: 1px solid black; */
+    background-color: skyblue;
+    margin-top: 0px;
+    /* border-radius: 50px; */
+    margin: 5px auto;
+}
+
+nav .heading{ 
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+nav span{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 18px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+nav ul li a:hover{
+    color: rgb(151, 2, 2);
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
+    /* padding: 8px; */
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.hero {
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    /* opacity: 0.32; */
+    /* background-position: 5px ; */
+    background-image: url('../../res/fitness.jpg');
+    /* background-color: linear-gradient(rgba(255, 255, 255, 0); */
+}
+
+/* .hero h1{
+    font-size: bold;
+    color: wheat; 
+} */
+
+
+/* .homepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px 3px grey;
+    background-color: white;
+    position: relative;
+}
+
+.homepage > .button{
+    background-color: #1877f2;
+    border: 1px solid #1877f2;
+    color: white;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+} */
