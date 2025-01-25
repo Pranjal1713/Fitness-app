@@ -26,7 +26,7 @@ const Homepage = (props) =>{
             </ul>
         </nav>
 
-        {/* <h1 style={{textAlign: 'center'}}>My Fitness CLub</h1> */}
+    
 
 
 
